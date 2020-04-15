@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Yrv-o3-qBB">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Custom Example3 View Controller-->
+        <scene sceneID="RaJ-Ce-Yy8">
+            <objects>
+                <viewController id="Yrv-o3-qBB" customClass="CustomExample3ViewController" customModule="circularProgress" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rhF-qA-i6A">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fvy-5M-laH" customClass="CustomExample3" customModule="circularProgress" customModuleProvider="target">
+                                <rect key="frame" x="87" y="104" width="240" height="240"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="fUB-oS-Ai0"/>
+                                    <constraint firstAttribute="height" constant="240" id="y9R-I9-2m8"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Fvy-5M-laH" firstAttribute="top" secondItem="3Fv-Aw-UWW" secondAttribute="top" constant="60" id="9Vr-m2-8rf"/>
+                            <constraint firstItem="Fvy-5M-laH" firstAttribute="centerX" secondItem="rhF-qA-i6A" secondAttribute="centerX" id="Zwz-2e-jgd"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="3Fv-Aw-UWW"/>
+                    </view>
+                    <connections>
+                        <outlet property="circular" destination="Fvy-5M-laH" id="PJP-O9-XJ4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uNy-1t-Bac" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="123" y="139"/>
+        </scene>
+    </scenes>
+</document>
