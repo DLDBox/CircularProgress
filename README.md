@@ -28,16 +28,23 @@ class CircularView: CirclarCountProgressView{
 ```
 
 strokeWidth: - Is the Width of the green track above
+
 animationDuration: - How long the animation will take to completed
 
 trackColor: - Is the gray track under the green
+
 progressColor: - The green progress bar draw on top of the gray track
+
 fillColor: - The blue color inside of the progress view
+
 activateFillColor: - The color which is display while the numbers are counting
+
 textColor: - The color of the text printed in the center
 
 tickCount: - The number of ticks to draw, this number should be an even number
+
 tickColor: - The color that ticks are drawn with
+
 tickWidth: - The width of the tick
 
 
