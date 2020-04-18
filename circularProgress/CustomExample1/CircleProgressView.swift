@@ -11,7 +11,7 @@ import UIKit
 
 class CircleProgressViewController: UIViewController {
     
-    @IBOutlet weak var circleProgress: CirclarCountProgressView!
+    @IBOutlet weak var circleProgress: CircularCountProgressView!
     
     override func viewDidAppear(_ animated: Bool) {
         self.circleProgress?.startAnimation( with: ["0","1","2","3","4","5","6"], completion: {  self.dismiss(animated: true, completion: {})  } )

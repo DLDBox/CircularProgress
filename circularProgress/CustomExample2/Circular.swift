@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class CircularView: CirclarCountProgressView{
+class CircularView: CircularCountProgressView{
     
     override var strokeWidth: CGFloat { get {return 10.0} }
     override var marginWidth: CGFloat { get {return 10.0}}

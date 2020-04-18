@@ -11,7 +11,7 @@ import UIKit
 
 /* Create a custome Circular progress View.
  */
-class CustomExample3: CirclarCountProgressView {
+class CustomExample3: CircularCountProgressView {
     
     override var strokeWidth: CGFloat { get {return 20.0} }
     override var marginWidth: CGFloat { get {return 10.0}}

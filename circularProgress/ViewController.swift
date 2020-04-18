@@ -10,13 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    var circleProgress: CirclarCountProgressView? = nil
+    var circleProgress: CircularCountProgressView? = nil
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         //self.circleProgress = CirclarCountProgressView(frame: self.view.bounds)
-        self.circleProgress = CirclarCountProgressView(frame: CGRect(x: 5.0, y: 0.0, width: 400, height: 600))
+        self.circleProgress = CircularCountProgressView(frame: CGRect(x: 5.0, y: 0.0, width: 400, height: 600))
         self.view.addSubview(self.circleProgress!)
         
         self.view.backgroundColor = UIColor.darkGray

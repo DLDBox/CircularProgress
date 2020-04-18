@@ -11,7 +11,7 @@ import UIKit
 
 /* This class implementes the circlar progress with the center digit display
  */
-class CirclarCountProgressView: UIView {
+class CircularCountProgressView: UIView {
     
     struct K {
         static var tickID = 783482
@@ -84,7 +84,7 @@ class CirclarCountProgressView: UIView {
         self.drawTicks(count: self.tickCount)
     }
     
-    static func Ticker( progressView: CirclarCountProgressView, count: Int ) {
+    static func Ticker( progressView: CircularCountProgressView, count: Int ) {
         progressView.drawTicks(count: count)
     }
     
