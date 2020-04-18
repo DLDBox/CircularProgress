@@ -40,5 +40,6 @@ tickCount: - The number of ticks to draw, this number should be an even number
 tickColor: - The color that ticks are drawn with
 tickWidth: - The width of the tick
 
+
 When creating the CircularCountProgressView, the width and the height of the frame must be equal.
 
