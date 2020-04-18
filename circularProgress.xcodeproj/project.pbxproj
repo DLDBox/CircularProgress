@@ -137,6 +137,7 @@
 		11AE8D4422EF9AB8002F73F3 /* circularProgress */ = {
 			isa = PBXGroup;
 			children = (
+				5D6A16BF244AE927000B013D /* Source */,
 				11DF49572301E70E003E2F3D /* CustomExample1 */,
 				11E8E407230F4E5D0038651A /* CustomExample2 */,
 				5D809143243FBCC6009DA196 /* CustomExample3 */,
@@ -182,9 +183,9 @@
 		11DF49572301E70E003E2F3D /* CustomExample1 */ = {
 			isa = PBXGroup;
 			children = (
+				11AE8D7322EFBB3F002F73F3 /* CircleCountProgressView.swift */,
 				11EFDA9722FB875C002F06EC /* CircleProgressView.storyboard */,
 				11EFDA9922FB8782002F06EC /* CircleProgressView.swift */,
-				11AE8D7322EFBB3F002F73F3 /* CircleCountProgressView.swift */,
 			);
 			path = CustomExample1;
 			sourceTree = "<group>";
@@ -214,6 +215,13 @@
 				11E8E40C230F510A0038651A /* CircularViewController.swift */,
 			);
 			path = CustomExample2;
+			sourceTree = "<group>";
+		};
+		5D6A16BF244AE927000B013D /* Source */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 		5D809143243FBCC6009DA196 /* CustomExample3 */ = {
