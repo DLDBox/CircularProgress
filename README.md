@@ -3,5 +3,5 @@ A Swift Circular Progress View with numerics, ticks marks and custom color confi
 
 # Example #1
 
-![Example #1](Example-1.png)
+![Example #1](Example-1a.png)
 
