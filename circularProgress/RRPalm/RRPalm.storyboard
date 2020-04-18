@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Ihe-le-cYb">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Palm Home Screen View Controller-->
+        <scene sceneID="3vW-6S-ASV">
+            <objects>
+                <viewController id="Ihe-le-cYb" customClass="PalmHomeScreenViewController" customModule="circularProgress" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NMA-Us-caG">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mKo-eM-cUq">
+                                <rect key="frame" x="153.5" y="822" width="107" height="30"/>
+                                <state key="normal" title="Scan Palm Now"/>
+                                <connections>
+                                    <action selector="didTouchScan:" destination="Ihe-le-cYb" eventType="touchUpInside" id="BAj-bk-Zc5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Pl-gS-zZX">
+                                <rect key="frame" x="187" y="473" width="40" height="30"/>
+                                <state key="normal" title="Verify"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sqI-so-Mdd">
+                                <rect key="frame" x="187.5" y="433" width="39" height="30"/>
+                                <state key="normal" title="Enroll"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="sqI-so-Mdd" firstAttribute="centerX" secondItem="NMA-Us-caG" secondAttribute="centerX" id="1Ru-UX-sFL"/>
+                            <constraint firstItem="9Pl-gS-zZX" firstAttribute="centerY" secondItem="NMA-Us-caG" secondAttribute="centerY" constant="40" id="ThU-r6-uHj"/>
+                            <constraint firstItem="Bj1-vD-9M3" firstAttribute="bottom" secondItem="mKo-eM-cUq" secondAttribute="bottom" constant="10" id="Wi6-ac-Hzc"/>
+                            <constraint firstItem="mKo-eM-cUq" firstAttribute="centerX" secondItem="NMA-Us-caG" secondAttribute="centerX" id="dTW-QS-wIS"/>
+                            <constraint firstItem="9Pl-gS-zZX" firstAttribute="centerX" secondItem="NMA-Us-caG" secondAttribute="centerX" id="hvB-gT-B5K"/>
+                            <constraint firstItem="sqI-so-Mdd" firstAttribute="centerY" secondItem="NMA-Us-caG" secondAttribute="centerY" id="i6L-zj-VoE"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Bj1-vD-9M3"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Erj-G3-0mM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-62" y="42"/>
+        </scene>
+    </scenes>
+</document>
